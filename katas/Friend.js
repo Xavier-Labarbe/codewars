@@ -1,3 +1,3 @@
 export default function friend(friends){
-    return friends.filter(function (friend){return friend.length == 4})
+    return friends.filter(function (friend){return friend.length === 4})
 }
